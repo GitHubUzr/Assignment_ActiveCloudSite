@@ -43,7 +43,7 @@ namespace FoodRecallEnforcements.APIHandlerManager
         /// <returns></returns>
         public Enforcements GetEnforcements(int num,HttpClient httpClient)
         {
-            string FOOD_RECALL_API_PATH = BASE_URL + "api_key=" + API_KEY + "&search=report_date:[20040101+TO+20200410]&limit=100&skip="+ num;
+            string FOOD_DATA_CENTRAL_API_PATH = BASE_URL + "api_key=" + API_KEY + "&search=report_date:[20040101+TO+20200410]&limit=100&skip="+ num;
             string enforcementData = "";
 
             Enforcements enforcement = null;
