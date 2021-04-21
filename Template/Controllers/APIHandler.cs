@@ -18,7 +18,7 @@ namespace FoodRecallEnforcements.APIHandlerManager
         // data.gov developer network, i.e. all data sources on data.gov.
        
 
-        static string BASE_URL = "https://api.fda.gov/food/enforcement.json?";
+        static string BASE_URL = "https://api.fda.gov/food/enforcement.json?"; // We must change this
         static string API_KEY = "CABrC4KLzBtLHUZZY1atwU5eNdyb3AplHf3YE5Sn"; //Add your API key here inside ""
 
         //HttpClient httpClient;
